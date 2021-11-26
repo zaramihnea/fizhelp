@@ -571,45 +571,7 @@ button {
      display: none;
 }
 
-#myCarousel .carousel-control-prev{
-     width: 62px;
-     height: 62px;
-     background: #deae25;
-     opacity: 1;
-     font-size: 28px;
-     color: #fff;
-     padding: 10px;
-     border-radius: 30px;
-     max-width: 1;
-     margin: 0;
-     position: absolute;
-     top: 100%;
-     left: 40%;
-     -ms-transform: translateY(-100%);
-     transform: translateY(-100%);
-     -ms-transform: translateX(-40%);
-     transform: translateX(-40%);
-}
 
-#myCarousel .carousel-control-next {
-     width: 62px;
-     height: 62px;
-     background: #deae25;
-     opacity: 1;
-     font-size: 28px;
-     color: #fff;
-     padding: 10px;
-     border-radius: 30px;
-     max-width: 1;
-     margin: 0;
-     position: absolute;
-     top: 100%;
-     left: 60%;
-     -ms-transform: translateY(-100%);
-     transform: translateY(-100%);
-     -ms-transform: translateX(-60%);
-     transform: translateX(-60%);
-}
 /** end testimonial section **/
 
 
@@ -841,3 +803,35 @@ button {
 
 /** end footer **/
 
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color:#e5af23;
+}
+
+.prev{
+     left: 0;
+     border-radius: 10px;
+     
+}
+
+.next {
+  right: 0;
+  border-radius: 10px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
