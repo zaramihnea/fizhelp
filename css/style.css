@@ -827,11 +827,11 @@ button {
 }
 
 .next {
-  right: 0;
-  border-radius: 10px;
+     right: 0;
+     border-radius: 10px;
 }
 
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-  color: white;
+     background-color: rgba(0,0,0,0.8);
+     color: white;
 }
