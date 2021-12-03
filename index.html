@@ -51,6 +51,7 @@
    <!-- body -->
    <body class="main-layout">
       <!-- loader  -->
+<div id="hidden">
       <div class="loader_bg">
          <div class="loader"><img src="images/loading.gif" alt="#" /></div>
       </div>
@@ -200,7 +201,7 @@
                                           </div>
                                           <p>Mecanica</p>
                                           <div class="some">
-                                             <a class=" read_more" href="https://drive.google.com/file/d/15V_3DzFx4bKJG1D-8bvkNPFYyOJiOLkF/view?usp=sharing">Acceseaza lectia</a>
+                                             <button type="button" class=" read_more" data-toggle="modal" data-target="#myModal1">Acceseaza lectia</button>
                                              <br>
                                           </div>
                                        </div>
@@ -227,7 +228,7 @@
                                           </div>
                                           <p>Termodinamica</p>
                                           <div class="some">
-                                             <a class=" read_more" href="https://drive.google.com/file/d/1YLixiUra3CLqFTSnhaUvInV1u7As3uPd/view?usp=sharing">Acceseaza lectia</a>
+                                             <button type="button" class=" read_more" data-toggle="modal" data-target="#myModal2">Acceseaza lectia</button>
                                              <br>
                                           </div>
                                        </div>
@@ -254,7 +255,7 @@
                                           </div>
                                           <p>Electricitate</p>
                                           <div class="some">
-                                             <a class=" read_more" href="https://drive.google.com/file/d/1ltbrhSRwqVeR1ROwqvycuxtWi5WeDkIB/view?usp=sharing">Acceseaza lectia</a>
+                                             <button type="button" class=" read_more" data-toggle="modal" data-target="#myModal3">Acceseaza lectia</button>
                                              <br>
                                           </div>
                                        </div>
@@ -281,7 +282,7 @@
                                           </div>
                                           <p>Optica</p>
                                           <div class="some">
-                                          <a class="read_more" href="https://drive.google.com/file/d/1LVyUwRl4O5gW00fucY4Y63s3vUiEF3ah/view?usp=sharing">Acceseaza lectia</a>
+                                             <button type="button" class=" read_more" data-toggle="modal" data-target="#myModal4">Acceseaza lectia</button>
                                              <br>
                                        </div>
                                        </div>
@@ -308,6 +309,82 @@
             </div>
          </div>
       </div>
+      <div id="myModal1" class="modal fade" role="dialog">
+         <div class="modal-dialog modal-lg1">
+
+             <!-- Modal content-->
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <h4 class="modal-title">Mecanica</h4>
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 </div>
+                 <div class="modal-body">
+                  <iframe src="https://drive.google.com/file/d/1IFn1S3RVQnJ8r0oSM00v73TtMPZu4FGd/preview" width="100%" height="480" allow="autoplay"><p>Acest browser nu suporta vizualiare de pdf-uri. Acceseaza lectia pe <a href="https://drive.google.com/file/d/15V_3DzFx4bKJG1D-8bvkNPFYyOJiOLkF/view?usp=sharing">acest link</a>.</p></iframe>
+                     <div class="modal-footer">
+                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                     </div>
+                 </div>
+
+             </div>
+         </div>
+     </div>
+     <div id="myModal2" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg1">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title">Termodinamica</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+               <iframe src="https://drive.google.com/file/d/1j0BnHy1MGEwTKBWKX1p1OjnqZ7rSd8vn/preview" width="100%" height="480" allow="autoplay"><p>Acest browser nu suporta vizualiare de pdf-uri. Acceseaza lectia pe <a href="https://drive.google.com/file/d/1j0BnHy1MGEwTKBWKX1p1OjnqZ7rSd8vn/view?usp=sharing">acest link</a>.</p></iframe>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </div>
+  <div id="myModal3" class="modal fade" role="dialog">
+   <div class="modal-dialog modal-lg1">
+
+       <!-- Modal content-->
+       <div class="modal-content">
+           <div class="modal-header">
+               <h4 class="modal-title">Electricitate</h4>
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+           </div>
+           <div class="modal-body">
+            <iframe src="https://drive.google.com/file/d/1TtaEB5ympkl-jNC9O0gE27RFM1vUWa2Y/preview" width="100%" height="480" allow="autoplay"><p>Acest browser nu suporta vizualiare de pdf-uri. Acceseaza lectia pe <a href="https://drive.google.com/file/d/1TtaEB5ympkl-jNC9O0gE27RFM1vUWa2Y/view?usp=sharing">acest link</a>.</p></iframe>
+               <div class="modal-footer">
+                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+           </div>
+
+       </div>
+   </div>
+</div>
+<div id="myModal4" class="modal fade" role="dialog">
+   <div class="modal-dialog modal-lg1">
+
+       <!-- Modal content-->
+       <div class="modal-content">
+           <div class="modal-header">
+               <h4 class="modal-title">Optica</h4>
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+           </div>
+           <div class="modal-body">
+            <iframe src="https://drive.google.com/file/d/1bw9Ga2iJjMjRGGNAvkaTp5QM04KEAcXc/preview" width="100%" height="480" allow="autoplay"><p>Acest browser nu suporta vizualiare de pdf-uri. Acceseaza lectia pe <a href="https://drive.google.com/file/d/1bw9Ga2iJjMjRGGNAvkaTp5QM04KEAcXc/view?usp=sharing">acest link</a>.</p></iframe>
+               <div class="modal-footer">
+                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+           </div>
+
+       </div>
+   </div>
+</div>
       <!-- end testimonial -->
       <!-- asked -->
       <div id="exercitii" class="asked">
@@ -490,6 +567,7 @@
             </div>
          </div>
       </footer>
+   </div>
       <!-- end footer -->
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
